@@ -1,0 +1,92 @@
+.vj__s {
+        background-image: url(../images/victoria1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+        height: auto;
+        overflow: hidden;
+}
+
+.vj__s-container {
+        display: flex;
+        display: -webkit-flex;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-column-count: 1;
+/* Chrome, Safari, Opera */
+        -moz-column-count: 1;
+/* Firefox */
+        column-count: 1;
+        margin-top: 10%;
+        margin-right: 40%;
+}
+
+.vj__s-container-item {
+}
+
+.anchored {
+}
+
+.vj__s-social {
+        display: flex;
+        display: -webkit-flex;
+        -webkit-flex-direction: row reverse;
+        flex-direction: row reverse;
+        justify-content: flex-end;
+        column-count: 1;
+        padding-top: 15%;
+}
+
+.tumblr {
+        background: url(../images/tumblr.png);
+}
+
+.facebook {
+        background: url(../images/facebook.png);
+}
+
+.snapchat {
+        background: url(../images/snapchat.png);
+}
+
+.twitter {
+        background: url(../images/twitter.png);
+}
+
+.youtube {
+        background: url(../images/youtube.png);
+}
+
+.rocky-horror {
+        background: url(../images/rocky-horror.png);
+}
+
+.fox-now {
+        background: url(../images/fox-now.png);
+}
+
+@media (min-width: 800px) {
+        .vj__s {
+                flex: 1;
+        }
+
+        .vj__s-content {
+                flex: 1;
+        }
+
+        .vj__s-social {
+                flex: 0 0 12em;
+        }
+}
+
+@media (max-width: 500px) {
+        .vj__s-container {
+                flex: 1;
+                background-size: auto;
+        }
+
+        .vj__s-social {
+        }
+}
