@@ -1,0 +1,4 @@
+# Ignore Codekit Files
+*config.codekit
+# Ignore Sass cache
+*.sass-cache

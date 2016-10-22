@@ -1,0 +1,38 @@
+.vj__s-container {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 40px;
+
+  .vj__s-container-item {
+    flex: 0 1 auto;
+    margin: 20px auto;
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
+
+// Background Images
+
+.vj__s {
+  background-image: url(images/victoria1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.tumblr { background: url(images/tumblr.png); }
+.facebook { background: url(images/facebook.png); }
+.snapchat { background: url(images/snapchat.png); }
+.twitter { background: url(images/twitter.png); }
+.youtube { background: url(images/youtube.png); }
+.rocky-horror { background: url(images/rocky-horror.png); }
+.fox-now { background: url(images/fox-now.png); }

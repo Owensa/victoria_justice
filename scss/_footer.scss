@@ -1,0 +1,26 @@
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  padding: 10px 5px;
+}
+
+.vj__s-social {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+
+  a {
+    flex: 0 1 auto;
+    margin: 0 10px;
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+  }
+}

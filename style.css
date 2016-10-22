@@ -1,74 +1,91 @@
+.intro {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  letter-spacing: .125rem;
+  text-transform: uppercase;
+  color: #fff; }
+
+.vj__s-container {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 40px; }
+  .vj__s-container .vj__s-container-item {
+    flex: 0 1 auto;
+    margin: 20px auto; }
+    .vj__s-container .vj__s-container-item img {
+      max-width: 100%;
+      height: auto; }
+
 .vj__s {
   background-image: url(images/victoria1.png);
   background-repeat: no-repeat;
-  background-size: contain;
-  margin: 0;
+  background-size: cover;
+  background-position: right center;
+  width: 100%;
   height: auto;
-  overflow: hidden;
-}
+  overflow: hidden; }
 
-.vj__s-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  column-count: 1;
-  margin-top: 10%;
-  margin-right: 40%;
-}
+.tumblr {
+  background: url(images/tumblr.png); }
+
+.facebook {
+  background: url(images/facebook.png); }
+
+.snapchat {
+  background: url(images/snapchat.png); }
+
+.twitter {
+  background: url(images/twitter.png); }
+
+.youtube {
+  background: url(images/youtube.png); }
+
+.rocky-horror {
+  background: url(images/rocky-horror.png); }
+
+.fox-now {
+  background: url(images/fox-now.png); }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  padding: 10px 5px; }
 
 .vj__s-social {
   display: flex;
-  flex-direction: row reverse;
-  justify-content: flex-end;
-  column-count: 1;
-  padding-top: 15%;
-}
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px; }
+  .vj__s-social a {
+    flex: 0 1 auto;
+    margin: 0 10px; }
+    .vj__s-social a img {
+      max-width: 100%;
+      height: auto; }
 
-.tumblr {
-  background: url(images/tumblr.png);
-}
+.button {
+  width: 200px;
+  height: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  letter-spacing: .125rem;
+  text-transform: uppercase;
+  color: #fff !important;
+  line-height: 1.8 !important;
+  padding: 10px 30px !important; }
 
-.facebook {
-  background: url(images/facebook.png);
-}
-
-.snapchat {
-  background: url(images/snapchat.png);
-}
-
-.twitter {
-  background: url(images/twitter.png);
-}
-
-.youtube {
-  background: url(images/youtube.png);
-}
-
-.rocky-horror {
-  background: url(images/rocky-horror.png);
-}
-
-.fox-now {
-  background: url(images/fox-now.png);
-}
-
-@media (min-width: 800px) {
+@media (min-width: 740px) {
   .vj__s {
-    flex: 1;
-  }
+    flex: 1; }
 
   .vj__s-content {
-    flex: 1;
-  }
+    flex: 1; }
 
   .vj__s-social {
-    flex: 0 0 12em;
-  }
-}
-
-@media (max-width: 500px) {
-  .vj__s-container {
-    flex: 1;
-    background-size: auto;
-  }
-}
+    flex: 0 0 12em; } }
