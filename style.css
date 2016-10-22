@@ -80,12 +80,20 @@ footer {
   line-height: 1.8 !important;
   padding: 10px 30px !important; }
 
-@media (min-width: 740px) {
-  .vj__s {
-    flex: 1; }
-
-  .vj__s-content {
-    flex: 1; }
+@media (min-width: 1024px) {
+  .vj__s-container {
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 60px;
+    width: 50%;
+    margin-top: 15vh; }
+    .vj__s-container .vj__s-container-item {
+      align-items: flex-start;
+      margin: 20px auto; }
 
   .vj__s-social {
-    flex: 0 0 12em; } }
+    flex-direction: row;
+    justify-content: flex-end; }
+
+  .button:hover {
+    background-color: #e20712 !important; } }
